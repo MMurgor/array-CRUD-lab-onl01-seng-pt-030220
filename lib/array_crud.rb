@@ -7,7 +7,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   [array] << "1","2","3","4"
-  puts array ["3"]
+  puts array.inspect ["3"]
 end
 
 def add_element_to_start_of_array(array, element)
